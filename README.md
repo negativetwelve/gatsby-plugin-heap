@@ -17,6 +17,7 @@ plugins: [
     resolve: 'gatsby-plugin-heap',
     options: {
       appId: 'YOUR-APP-ID',
+      enableOnDevMode: true // if 'false', heap will be fired on NODE_ENV=production only
     },
   },
 ],
